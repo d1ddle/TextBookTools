@@ -13,13 +13,13 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
 1. The URL prefix and suffix of a page. (The part that comes before and after the page number in the URL)
 
-  * https://resources.pearsonactivelearn.com/r00/r0021/r002163/r00216387/current/OPS/images/Access_Studio_Full_Book-
+  - https://resources.pearsonactivelearn.com/r00/r0021/r002163/r00216387/current/OPS/images/Access_Studio_Full_Book-
 
-  * .pdf.jpg
+  - .pdf.jpg
 
 2. The total number of pages in the book. This isn't neccessary, but is relevant to prevent the downloader from running forever.
 
-  * 32
+  - 32
 
 3. Python 3.9 or above.
 
