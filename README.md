@@ -70,7 +70,7 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
 Pearson Active Learn could use an encryption method using a private key to randomise the filenames used so that they can't be traced systematically using page numbers.
 
-For example, page 1 would be called `7b7b6b233577104f28de1628f2289f79.jpg` which is MD2 hashed from page01, page 2 called `17f02b6ffb6d1c012afbf20444d5c5c5.jpg` which is MD2 hashed from page02, etc etc, using multiple different hashing types like MD5 and SHA256.
+For example, page 1 would be called `T0JRV09aSlFHRT09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page01, page 2 called `T0JRV09aSlFHST09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page02, etc etc, using multiple different encoding and hashing types.
 
 ---
 
