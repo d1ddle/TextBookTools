@@ -14,6 +14,10 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 1. The URL prefix and suffix of a page. (The part that comes before and after the page number in the URL)
 
   > https://resources.pearsonactivelearn.com/r00/r0021/r002163/r00216387/current/OPS/images/Access_Studio_Full_Book-
+  
+  > iterated number (001, 002, 003, 004... 201, 202, 203)
+  
+  Some iterated numbers have place holders before digits. No way to figure this out though. Also no way to figure out URL prefixes.
 
   > .pdf.jpg
 
