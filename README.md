@@ -21,13 +21,13 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
   > .pdf.jpg
 
-2. The total number of pages in the book. This isn't neccessary, but is relevant to prevent the downloader from running forever.
+2. The total number of pages in the book. This isn't neccessary, ~~but is relevant to prevent the downloader from running forever.~~ tasks now cancel after failing three times.
 
   > 32
 
 3. Python 3.9 or above.
 
-4. The downloader script in a new empty folder.
+4. ~~The downloader script in a new empty folder.~~ Specify a folder name as the downloader now creates a folder to dump images into.
 
 ### To use it:
 
@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
 2. Re-run the python script, and all of the downloaded files will appear in the same folder the script is located in.
 
-> **Note: If no files appear, it is because the script could not find the requested URL. Look at the python shell and check the links printed work fine in your browser.**
+> **Note: If no files appear, it is because the script could not find the requested URL. Look at the python shell and check the links printed work fine in your browser.** The script will end after failing thrice consecutively.
 
 ---
 
@@ -63,6 +63,8 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
 9. So I wrote this quick python script to download all images from a book. You just need to give the script a maximum page number, filename url and off it goes.
 
+10. Note: this also works with Kerboodle!
+
 ---
 
 > **Note: filename url is the link to a page before the page number. EG: `https://resources.pearsonactivelearn.com/r00/r0021/r002163/r00216387/current/OPS/images/Access_Studio_Full_Book-` PAGENO `.pdf.jpg`**
@@ -80,4 +82,4 @@ For example, page 1 would be called `T0JRV09aSlFHRT09PT09PQ==.jpg` which is Base
 
 ### Diclaimer
 
-None of this was done to harm Pearson or Active Learn or anyone, in fact, this is just a fun weekend project to look into their content delivery service.
+None of this was done to harm Pearson, Active Learn, Kerboodle or anyone, in fact, this is just a fun weekend project to look into their content delivery service.
