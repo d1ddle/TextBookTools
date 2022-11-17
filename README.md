@@ -1,4 +1,9 @@
 # TextBookTools
+#### ToDo:
+- Update this ReadME with new toolset instructions (csv, pdfmaker)
+- Make an example  of the toolset using a Creative Commons online book
+
+### Description
 Linear file structure downloader&PDFmaker
 Specifically Pearson Active Learn & Kerboodle Textbooks
 
