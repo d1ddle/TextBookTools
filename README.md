@@ -1,5 +1,6 @@
-# ActiveLearnDownloader
-Pearson Active Learn Book Downloader
+# TextBookTools
+Linear file structure downloader&PDFmaker
+Specifically Pearson Active Learn & Kerboodle Textbooks
 
 More information (not my video.)
 
@@ -39,7 +40,7 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
 ---
 
-## The Vulnerability
+## How this is possible
 
 1. Sign into Active Learn and open the chosen book.
 
@@ -77,6 +78,7 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 Pearson Active Learn could use an encryption method using a private key to randomise the filenames used so that they can't be traced systematically using page numbers.
 
 For example, page 1 would be called `T0JRV09aSlFHRT09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page01, page 2 called `T0JRV09aSlFHST09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page02, etc etc, using multiple different encoding and hashing types.
+In fact, kerboodle have already used this on some of their bigger A level textbooks (800+ pages), but I assume because they need to index each mini-book section, so therefore they are not easily downloadable and would have to be manually visited and downloaded one by one.
 
 ---
 
