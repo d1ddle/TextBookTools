@@ -82,14 +82,14 @@ https://www.youtube.com/watch?v=FVW6KuDQbhA
 
 Pearson Active Learn could use an encryption method using a private key to randomise the filenames used so that they can't be traced systematically using page numbers.
 
-For example, page 1 would be called `T0JRV09aSlFHRT09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page01, page 2 called `T0JRV09aSlFHST09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page02, etc etc, using multiple different encoding and hashing types.
-In fact, kerboodle have already used this on some of their bigger A level textbooks (800+ pages), but I assume because they need to index each mini-book section, so therefore they are not easily downloadable and would have to be manually visited and downloaded one by one.
+Page 1 would be called `T0JRV09aSlFHRT09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page01, page 2 called `T0JRV09aSlFHST09PT09PQ==.jpg` which is Base32 and then Base64 encoded from page02, etc etc, using multiple different encoding and hashing types.
+Kerboodle have already used this on some of their bigger A level textbooks (800+ pages). I assume because they need to index each mini-book section, so they therefore are not easily downloadable and would have to be manually visited and downloaded one by one.
 
 ---
 
 ## Legal
 
-No textbook files are stored in this repository. The repository simply contains user-submitted links to publicly available textbook URLs, which to the best of our knowledge have been intentionally made publicly by the copyright holders. If any links in these playlists infringe on your rights as a copyright holder, they may be removed by sending a pull request or opening an issue. However, note that we have no control over the destination of the link, and just removing the link from the playlist will not remove its contents from the web. Note that linking does not directly infringe copyright because no copy is made on the site providing the link, and thus this is not a valid reason to send a DMCA notice to GitHub. To remove this content from the web, you should contact the web host that's actually hosting the content (not GitHub, nor the maintainers of this repository).
+No textbook files are stored in this repository. The repository contains user-submitted links to publicly available textbook URLs, which to the best of our knowledge have been intentionally made publicly by the copyright holders. If any links in these playlists infringe on your rights as a copyright holder, they may be removed by sending a pull request or opening an issue. Note that we have no control over the destination of the link, and just removing the link from the playlist will not remove its contents from the web. Note that linking does not directly infringe copyright because no copy is made on the site providing the link, and thus this is not a valid reason to send a DMCA notice to GitHub. To remove this content from the web, you should contact the web host hosting the content (not GitHub, nor the maintainers of this repository).
 
 ## License
 
